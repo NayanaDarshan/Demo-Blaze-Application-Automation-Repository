@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Demo Blaze Application Regression Suite]">
+  <test thread-count="5" verbose="3" name="Purchase Page Test(failed)">
+    <classes>
+      <class name="com.qa.demoBlaze.test.PurchasePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyPurchasePageTitleTest"/>
+          <include name="verifyConfirmationID"/>
+          <include name="tearDown"/>
+          <include name="verifyPurchaseFormFillingTest"/>
+          <include name="PurchasePageSetup"/>
+          <include name="doPurchaseBtnClickTest"/>
+        </methods>
+      </class> <!-- com.qa.demoBlaze.test.PurchasePageTest -->
+    </classes>
+  </test> <!-- Purchase Page Test(failed) -->
+</suite> <!-- Failed suite [Demo Blaze Application Regression Suite] -->

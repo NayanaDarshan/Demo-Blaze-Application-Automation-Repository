@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Blaze Application Regression Suite" verbose="3">
+
+
+	<test name="Welcome Page Test">
+
+		<classes>
+			<class name="com.qa.demoBlaze.test.WelcomePageTest" />
+		</classes>
+
+	</test>
+
+	<test name="Find Flights Page Test">
+
+		<classes>
+			<class name="com.qa.demoBlaze.test.FindFlightsPageTest" />
+		</classes>
+
+	</test>
+
+	<test name="Purchase Page Test">
+		<classes>
+
+			<class name="com.qa.demoBlaze.test.PurchasePageTest" />
+
+
+		</classes>
+
+	</test>
+
+
+
+</suite>

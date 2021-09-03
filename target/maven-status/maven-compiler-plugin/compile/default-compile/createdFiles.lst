@@ -1,0 +1,7 @@
+com\qa\bistrackanywhere\Pages\NotepadPage.class
+com\qa\bistrackanywhere\utilis\ElementUtils.class
+com\qa\bistrackanywhere\base\BasePage.class
+com\qa\bistrackanywhere\Pages\LoginPage.class
+com\qa\bistrackanywhere\utilis\JavaScriptUtil.class
+com\qa\bistrackanywhere\Pages\HomePage.class
+com\qa\bistrackanywhere\utilis\Constants.class
